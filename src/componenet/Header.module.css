@@ -1,0 +1,22 @@
+.Header{
+ height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+  .p1{
+    position: absolute;
+    left: 10%;
+  }
+  .p2{
+    position: absolute;
+    right: 10%;
+  }
+  .p2 a{
+    text-decoration: none;
+    color:#007Bff;
+  }
+  .p2 a:hover{
+    text-decoration: underline;
+    transition: .2s;
+  }

@@ -1,0 +1,166 @@
+.container {
+  border: 2px solid red;
+  height: 100vh;
+}
+
+.header {
+  position: absolute;
+  right: 10%;
+  top: 2%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 5px;
+  letter-spacing: 2px;
+
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.header p {
+  font-size: 12px;
+}
+.BsGoogle {
+  color: #4285f4;
+  font-size: 1.5rem;
+}
+.middle {
+  height: 70vh;
+  position: relative;
+  top: 10%;
+}
+.middle h2{
+    color: #FFFFFF;
+}
+.middle img {
+  height: 70vh;
+}
+.middle h2 {
+  position: absolute;
+  top: 2%;
+  left: 40%;
+}
+
+.content {
+  position: absolute;
+  top: 25%;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 50.5vh;
+}
+.Summarize {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.Summarize h4 {
+  margin-top: 1.5rem;
+  font-weight: normal;
+  color: white;
+}
+.Summarize span {
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+  width: 15rem;
+  margin-bottom: 2rem;
+  border: 1px solid #0d6efd;
+  border-radius: 4px;
+}
+.Summarize span p {
+  height: 2.5rem;
+  background: #0d6efd;
+  text-align: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+.Summarize span p:hover {
+  height: 2.5rem;
+  background: #064fbd;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.Summarize span button {
+  border: none;
+  outline: none;
+  height: 2.5rem;
+  color: #0d6efd;
+  background: white;
+}
+.Summarize span button:hover {
+  background: #0d6efd;
+  color: white;
+  cursor: pointer;
+}
+.question {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30rem;
+}
+.question input {
+  width: 30rem;
+  outline: none;
+  border: 3px solid #0d6efd;
+  border-radius: 6px;
+  padding: 1rem;
+}
+.question h3{
+    color: #FFFFFF;
+}
+.files{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.inputs{
+  height: 7rem;
+  border: 1px solid gray;
+  width: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #fff;
+}
+.inputs .label{
+    height: 6rem;
+    border: 4px  dashed gray;
+    width: 34rem;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.files span{
+    width: 34rem;
+    display: flex;
+    justify-content: center;
+    gap :1rem;
+}
+.files span input{
+    width: 34rem;
+    height: 2rem;
+    border-radius: 7px ;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+}
+.files span button {
+    width: 3rem;
+    border-radius: 7px ;
+    background: #1465df;
+    outline: none;
+    border: none;
+}
+.files p{
+    color: #FFFFFF;
+}

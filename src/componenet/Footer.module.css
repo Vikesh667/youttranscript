@@ -1,0 +1,28 @@
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    height: 70vh;
+    align-items: center;
+    
+}
+.desktop{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.icon{
+    color: #007Bff;
+    font-size: 5rem;
+}
+.icon:hover{
+    font-size: 6rem;
+}
+.desktop span{
+    font-weight: 700;
+    color: #212529;
+    font-size: 1.5rem;
+}
