@@ -26,3 +26,12 @@
     color: #212529;
     font-size: 1.5rem;
 }
+@media(max-width:768px){
+    html{
+        font-size: 15px;
+    }
+    .Footer{
+        display: flex;
+        flex-direction: column;
+    }
+}

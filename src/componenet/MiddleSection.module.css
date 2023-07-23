@@ -3,10 +3,10 @@
   justify-content: center;
   height: 80vh;
   width: 100vw;
- }
+}
 img {
   width: 100%;
-  opacity: .9;
+  opacity: 0.9;
 }
 .heading {
   position: absolute;
@@ -18,10 +18,10 @@ img {
   flex-direction: column;
   gap: 1rem;
 }
-.heading h1{
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 2rem;
+.heading h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2rem;
   z-index: 999;
 }
 .inputBox {
@@ -29,23 +29,63 @@ img {
   gap: 1rem;
   height: 3rem;
   width: 50vw;
- column-gap: 1rem;
- margin-left: 150px;
+  column-gap: 1rem;
+  margin-left: 150px;
 }
-.inputBox input{
-    width: 30rem;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 1rem;
+.inputBox input {
+  width: 30rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
 }
-.inputBox button{
-    width: 7rem;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    background: #007Bff;
-    color: #FFFFFF;
-    font-size: 1rem;
+.inputBox button {
+  width: 7rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #007bff;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.copyTranscript {
+  border: 2px solid gray;
+  height: 2rem;
+  margin: 10px;
+  padding: 5px;
+  color: gray;
+  border-radius: 5px;
+  box-shadow: 3px -3px 3px -3px;
+}
+.copyTranscript:hover {
+  background: gray;
+  cursor: pointer;
+  color: #ffffff;
+}
+h4 {
+  color: #007bff;
+  padding: 5px;
+}
+h4:hover {
+  text-decoration: underline;
+  transition: 2s;
+  cursor: pointer;
+}
+.checkbox {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  .inputBox {
+   margin-left: 40px;
+  }
+  .heading h1 {
+    text-align: center;
+  }
 }

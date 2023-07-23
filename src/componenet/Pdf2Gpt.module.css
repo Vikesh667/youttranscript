@@ -1,5 +1,4 @@
 .container {
-  border: 2px solid red;
   height: 100vh;
 }
 
@@ -28,8 +27,8 @@
   position: relative;
   top: 10%;
 }
-.middle h2{
-    color: #FFFFFF;
+.middle h2 {
+  color: #ffffff;
 }
 .middle img {
   height: 70vh;
@@ -111,16 +110,16 @@
   border-radius: 6px;
   padding: 1rem;
 }
-.question h3{
-    color: #FFFFFF;
+.question h3 {
+  color: #ffffff;
 }
-.files{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+.files {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
-.inputs{
+.inputs {
   height: 7rem;
   border: 1px solid gray;
   width: 35rem;
@@ -130,37 +129,37 @@
   border-radius: 10px;
   background: #fff;
 }
-.inputs .label{
-    height: 6rem;
-    border: 4px  dashed gray;
-    width: 34rem;
-    border-radius: 7px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.inputs .label {
+  height: 6rem;
+  border: 4px dashed gray;
+  width: 34rem;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.files span{
-    width: 34rem;
-    display: flex;
-    justify-content: center;
-    gap :1rem;
+.files span {
+  width: 34rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
-.files span input{
-    width: 34rem;
-    height: 2rem;
-    border-radius: 7px ;
-    outline: none;
-    border: none;
-    padding: 0 10px;
+.files span input {
+  width: 34rem;
+  height: 2rem;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  padding: 0 10px;
 }
 .files span button {
-    width: 3rem;
-    border-radius: 7px ;
-    background: #1465df;
-    outline: none;
-    border: none;
+  width: 3rem;
+  border-radius: 7px;
+  background: #1465df;
+  outline: none;
+  border: none;
 }
-.files p{
-    color: #FFFFFF;
+.files p {
+  color: #ffffff;
 }
