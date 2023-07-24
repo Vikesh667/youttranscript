@@ -9,6 +9,7 @@ const MiddleSection = () => {
   const handleButon = (e) => {
     e.preventDefault();
     if (input.includes("https://www.youtube.com/watch?v")) {
+      setMessage("url Parse")
       setVideo(input);
     }else{
       setMessage("This is not youtube url")

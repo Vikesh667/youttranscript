@@ -20,7 +20,7 @@ const Pdf2Gpt = () => {
       </div>
 
       <div className={style.middle}>
-        <img src="https://images.unsplash.com/photo-1629382312424-7c6d593b91c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" />
+        <img src="https://images.unsplash.com/photo-1629382312424-7c6d593b91c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Image not found"/>
         <h2>pdf2gpt - Summarize a PDF</h2>
         <div className={style.content}>
           <div className={style.Summarize}>
@@ -53,7 +53,7 @@ const Pdf2Gpt = () => {
             </div>
             <p>or paste a URL:</p>
             <span>
-              <input placeholder="https://example.com.file.pdf"/>
+              <input placeholder="https://example.com.file.pdf" />
               <button>Go</button>
             </span>
           </div>
